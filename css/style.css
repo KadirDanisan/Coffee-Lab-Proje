@@ -1,0 +1,61 @@
+body{
+    color: #aaaaaa  !important;
+}
+.navbar{
+    background-color: #1d1c1c !important;
+}
+.navbar-img{
+    max-height: 95px !important;
+}
+.main-menu{
+    background-color: #1d1c1c !important;
+}
+.Lab{
+    color: #d12323 !important;
+}
+.btn{
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.btn-lab{
+   color:  #d12323;
+}
+.main-img-lab{
+    border-radius: 10px;
+}
+.templates{
+    background-color: #d12323 !important;
+}
+.open-job-img{
+    border-radius: 50px;
+}
+.form {
+    width: 800px;
+    height: 800px;
+    background-color: #1d1c1c;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.text-title{
+    text-align: center;
+}
+.form-text {
+    color: #d12323;
+    text-align: center;
+  }
+.btn-sub{
+    margin-top: 10px;
+    margin-left: 330px;
+    background-color: #d12323 ;
+  }
+.icon{
+    margin-top: 5rem;
+    text-align: center;
+  }

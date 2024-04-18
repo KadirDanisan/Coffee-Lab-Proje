@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COFFEE LAB</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- İCON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-dark"
+        aria-label="Furni navigation bar"
+        id="Contact"
+      >
+        <div class="container mt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="wt img/coffee-lab-beyaz.png" class="navbar-img" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="custom-navbar navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-home">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- İLETİŞİM -->
+    <form action="https://formsubmit.co/kadirdansan06@gmail.com" method="post">
+      <div class="container">
+        <div class="form">
+          <div class="text-title">
+            <i class="fa-solid fa-envelope fa-lg" style="color: #d12312"></i>
+            <h1>İletişim</h1>
+            <p>Anasayfa // İletişim</p>
+          </div>
+          <br />
+          <hr />
+          <div class="form-text">
+            <label for="full_name"></label>
+            <input
+              type="text"
+              id="full_name"
+              name="full_name"
+              placeholder="Full Name"
+            />
+          </div>
+          <br />
+          <div class="form-text">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+          </div>
+          <br />
+          <div class="form-text">
+            <label for="phone-number"></label>
+            <input
+              type="number"
+              name="phone-number"
+              id="phone-number"
+              placeholder="Phone Number"
+              minlength="10"
+              maxlength="12"
+            />
+          </div>
+          <br />
+          <div class="form-text">
+            <textarea
+              class="form-control"
+              id="message"
+              type="text"
+              placeholder="Enter your message here..."
+              style="height: 10rem"
+              data-sb-validations="required"
+            ></textarea>
+            <label for="message"></label>
+          </div>
+          <br />
+          <button class="btn btn-sub" type="submit">Gönder</button>
+        </div>
+      </div>
+    </form>
+    <!-- CONTACT -->
+    <section>
+      <div class="container icon">
+        <div class="row">
+          <div class="col-4">
+            <i class="fa-regular fa-envelope fa-3x" style="color: #d12312;"></i>
+            <h5 class="text-dark">Firma Sponsorluk ve İş Birlikleri için</h5>
+            <p>kurumsal@coffeelab.com.tr</p>
+          </div>
+          <div class="col-4">
+            <i class="fa-regular fa-message fa-3x" style="color: #d12312;"></i>
+            <h5 class="text-dark">İstek ve Görüşleriniz İçin</h5>
+            <p>destek@coffeelab.com.tr</p>
+          </div>
+          <div class="col-4">
+            <i class="fa-brands fa-whatsapp fa-3x" style="color: #d12312;"></i>
+            <h5 class="text-dark">Whatsapp Hattı</h5>
+            <p>+90 545 210 45 79</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="bg-dark py-4 mt-5">
+      <div class="container px-5">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <div class="small m-0 text-white">Kadir Danışan</div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">OnlyJS</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Proje</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Ödevi</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
